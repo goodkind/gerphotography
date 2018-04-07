@@ -1,0 +1,51 @@
+/**************************
+***** Footer Section ******
+**************************/
+#footer {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    min-height: 320px;
+    max-height: 1000px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+#footer h2 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 46px;
+    width: 480px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased !important;
+}
+#footer h2:hover {
+    border: 2px solid #fec503;
+    color: #fec503;
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+}
+#footer p {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    line-height: 10px;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased !important;
+}
+#footer-nav {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    letter-spacing: 2px;
+    padding-top: 45px;
+    background-color: #161616;
+    height: 95px;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}

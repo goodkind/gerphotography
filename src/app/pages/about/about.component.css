@@ -1,0 +1,38 @@
+/**************************
+****** About Section ******
+**************************/
+#about {
+    background-image: url('../../../assets/img/03_about.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    max-height: 2000px;
+    min-height: 720px;
+    color: #ffffff;
+    margin-top: -1px;
+}
+.about-content {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+#about-parallax .about-content {
+    padding-top: 12%;
+    padding-bottom: 10%;
+}
+#about h2,
+#about-parallax h2 {
+    position: absolute;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 44px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased !important;
+}
+.about-text{
+    margin-top: 7%;
+    position: relative;
+}

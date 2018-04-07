@@ -1,0 +1,75 @@
+/**************************
+***** Vision/Mission ******
+**************************/
+.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fec503;
+    border-radius: 0px;
+    padding: 0 20px;
+}
+.carousel-indicators .active {
+    width: 30px;
+    height: 12px;
+    margin: 0;
+    background-color: #fec503;
+}
+#vision {
+    background-image: url('../../../assets/img/01_services.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+}
+.dark-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 420px;
+    padding-top: 150px;
+}
+.light-overlay {
+    background: rgba(255, 255, 255, 0.8);
+    height: 160px;
+    padding-top: 30px;
+}
+.ptitle {
+    color: #535353;
+    text-align: center;
+}
+.vision {
+    text-align: center;
+    color: #ffffff;
+}
+.vision-border:hover > h2,
+.vision-border:hover {
+    color: #fec503;
+    border-color: #fec503;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+.vision-border:hover>h4,
+.vision-border:hover>h6 { color: #ffffff }
+.vision div.vision-border { padding: 20px }
+.vision-border {
+    padding: 5px 10px;
+    border: 2px solid #ffffff;
+    width: 40%;
+}
+.centered {
+    margin: auto;
+}
